@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Marcel!</title>
+    <style>
+        body {
+            background-color: #00FF00;
+            color: #0000FF;
+            font-family: "Comic Sans MS", sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .blinking {
+            font-size: 36px;
+            font-weight: bold;
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+        .marquee {
+            font-size: 24px;
+            margin: 20px;
+            background-color: yellow;
+            color: red;
+            border: 2px dashed blue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blinking">Happy Birthday, Marcel!</h1>
+    <img src="https://www.animatedimages.org/data/media/1096/animated-birthday-image-0067.gif" alt="Party Balloons">
+    <marquee class="marquee" behavior="scroll" direction="left">Alles Gute zum Geburtstag! Du bist der Beste!</marquee>
+    <p>Party like it's 1999!</p>
+    <audio controls autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-birthday.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <img src="https://www.animatedimages.org/data/media/1064/animated-birthday-cake-image-0045.gif" alt="Birthday Cake">
+    <footer>
+        <p>Website designt im einzigartigen Stil der 90er Jahre - nur für dich, Marcel!</p>
+        <p>Best viewed in Netscape Navigator 4.0</p>
+    </footer>
+</body>
+</html>
